@@ -18,119 +18,119 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 - An identifier of the subject who carried out the experiment.
 
 ##Identifiers
-Subject - The ID of the test subject
-Activity - The type of activity performed when the measurements were taken
+- Subject: The ID of the test subject
+- Activity: The type of activity performed when the measurements were taken
 
 ##Measurements
-*tBodyAccMeanX
-*tBodyAccMeanY
-*tBodyAccMeanZ
-*tBodyAccStdX
-*tBodyAccStdY
-*tBodyAccStdZ
-*tGravityAccMeanX
-*tGravityAccMeanY
-*tGravityAccMeanZ
-*tGravityAccStdX
-*tGravityAccStdY
-*tGravityAccStdZ
-*tBodyAccJerkMeanX
-*tBodyAccJerkMeanY
-*tBodyAccJerkMeanZ
-*tBodyAccJerkStdX
-*tBodyAccJerkStdY
-*tBodyAccJerkStdZ
-*tBodyGyroMeanX
-*tBodyGyroMeanY
-*tBodyGyroMeanZ
-*tBodyGyroStdX
-*tBodyGyroStdY
-*tBodyGyroStdZ
-*tBodyGyroJerkMeanX
-*tBodyGyroJerkMeanY
-*tBodyGyroJerkMeanZ
-*tBodyGyroJerkStdX
-*tBodyGyroJerkStdY
-*tBodyGyroJerkStdZ
-*tBodyAccMagMean
-*tBodyAccMagStd
-*tGravityAccMagMean
-*tGravityAccMagStd
-*tGravityAccJerkMagMean
-*tGravityAccJerkMagStd
-*tBodyGyroMagMean
-*tBodyGyroMagStd
-*tBodyGyroJerkMagMean
-*tBodyGyroJerkMagStd
-*fBodyAccMeanX
-*fBodyAccMeanY
-*fBodyAccMeanZ
-*fBodyAccStdX
-*fBodyAccStdY
-*fBodyAccStdZ
-*fGravityAccMeanX
-*fGravityAccMeanY
-*fGravityAccMeanZ
-*fGravityAccStdX
-*fGravityAccStdY
-*fGravityAccStdZ
-*fBodyAccJerkMeanX
-*fBodyAccJerkMeanY
-*fBodyAccJerkMeanZ
-*fBodyAccJerkStdX
-*fBodyAccJerkStdY
-*fBodyAccJerkStdZ
-*fBodyGyroMeanX
-*fBodyGyroMeanY
-*fBodyGyroMeanZ
-*fBodyGyroStdX
-*fBodyGyroStdY
-*fBodyGyroStdZ
-*fBodyGyroJerkMeanX
-*tBodyGyroJerkMeanY
-*tBodyGyroJerkMeanZ
-*tBodyGyroJerkStdX
-*tBodyGyroJerkStdY
-*tBodyGyroJerkStdZ
-*tBodyAccMagMean
-*tBodyAccMagStd
-*tGravityAccMagMean
-*tGravityAccMagStd
-*tGravityAccJerkMagMean
-*tGravityAccJerkMagStd
-*tBodyGyroMagMean
-*tBodyGyroMagStd
-*tBodyGyroJerkMagMean
-*tBodyGyroJerkMagStd
++ tBodyAccMeanX
++ tBodyAccMeanY
++ tBodyAccMeanZ
++ tBodyAccStdX
++ tBodyAccStdY
++ tBodyAccStdZ
++ tGravityAccMeanX
++ tGravityAccMeanY
++ tGravityAccMeanZ
++ tGravityAccStdX
++ tGravityAccStdY
++ tGravityAccStdZ
++ tBodyAccJerkMeanX
++ tBodyAccJerkMeanY
++ tBodyAccJerkMeanZ
++ tBodyAccJerkStdX
++ tBodyAccJerkStdY
++ tBodyAccJerkStdZ
++ tBodyGyroMeanX
++ tBodyGyroMeanY
++ tBodyGyroMeanZ
++ tBodyGyroStdX
++ tBodyGyroStdY
++ tBodyGyroStdZ
++ tBodyGyroJerkMeanX
++ tBodyGyroJerkMeanY
++ tBodyGyroJerkMeanZ
++ tBodyGyroJerkStdX
++ tBodyGyroJerkStdY
++ tBodyGyroJerkStdZ
++ tBodyAccMagMean
++ tBodyAccMagStd
++ tGravityAccMagMean
++ tGravityAccMagStd
++ tGravityAccJerkMagMean
++ tGravityAccJerkMagStd
++ tBodyGyroMagMean
++ tBodyGyroMagStd
++ tBodyGyroJerkMagMean
++ tBodyGyroJerkMagStd
++ fBodyAccMeanX
++ fBodyAccMeanY
++ fBodyAccMeanZ
++ fBodyAccStdX
++ fBodyAccStdY
++ fBodyAccStdZ
++ fGravityAccMeanX
++ fGravityAccMeanY
++ fGravityAccMeanZ
++ fGravityAccStdX
++ fGravityAccStdY
++ fGravityAccStdZ
++ fBodyAccJerkMeanX
++ fBodyAccJerkMeanY
++ fBodyAccJerkMeanZ
++ fBodyAccJerkStdX
++ fBodyAccJerkStdY
++ fBodyAccJerkStdZ
++ fBodyGyroMeanX
++ fBodyGyroMeanY
++ fBodyGyroMeanZ
++ fBodyGyroStdX
++ fBodyGyroStdY
++ fBodyGyroStdZ
++ fBodyGyroJerkMeanX
++ tBodyGyroJerkMeanY
++ tBodyGyroJerkMeanZ
++ tBodyGyroJerkStdX
++ tBodyGyroJerkStdY
++ tBodyGyroJerkStdZ
++ tBodyAccMagMean
++ tBodyAccMagStd
++ tGravityAccMagMean
++ tGravityAccMagStd
++ tGravityAccJerkMagMean
++ tGravityAccJerkMagStd
++ tBodyGyroMagMean
++ tBodyGyroMagStd
++ tBodyGyroJerkMagMean
++ tBodyGyroJerkMagStd
 
 
 ##Activity Labels
-*Activity 1 - Walking: subject was walking during the test
-*Activity 2 - Walking Upstairs: subject was walking up a staircase during the test
-*Activity 3 - Walking Downstairs: subject was walking down a staircase during the test
-*Activity 4 - Sitting: subject was sitting during the test
-*Activity 5 - Standing: subject was standing during the test
-*Activity 6 - Laying: subject was laying down during the test
+* Activity 1 - Walking: subject was walking during the test
+* Activity 2 - Walking Upstairs: subject was walking up a staircase during the test
+* Activity 3 - Walking Downstairs: subject was walking down a staircase during the test
+* Activity 4 - Sitting: subject was sitting during the test
+* Activity 5 - Standing: subject was standing during the test
+* Activity 6 - Laying: subject was laying down during the test
 
 
 ##Data files
-*x_train: Training set
+* x_train: Training set
 *x_test: Test set
-*y_train: Training labels
-*y_test: Test labels
-*subject_test: Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.
+* y_train: Training labels
+* y_test: Test labels
+* subject_test: Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.
 *subject_train: Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.
 
 
 ##Transformations
-*1. Load the test dataset including test set, test labels and test subject.
-*2. Load the train dataset including train set, train labels and train subject.
-*3. Combine the test and train set together into a dataset.
-*4. Load the column names according to the feature data file.
-*5. Rename the column names to be more descriptive
-*6. Take only those column names with mean and standard deviation measures.
-*7. write the final output as tidy.txt
-*8. Upload the tidy.txt, R script (run_analysis.R), CodeBook.md and README.md to github repository.
+* 1. Load the test dataset including test set, test labels and test subject.
+* 2. Load the train dataset including train set, train labels and train subject.
+* 3. Combine the test and train set together into a dataset.
+* 4. Load the column names according to the feature data file.
+* 5. Rename the column names to be more descriptive
+* 6. Take only those column names with mean and standard deviation measures.
+* 7. write the final output as tidy.txt
+* 8. Upload the tidy.txt, R script (run_analysis.R), CodeBook.md and README.md to github repository.
 
 
 
