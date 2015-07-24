@@ -57,13 +57,25 @@ TidyData$activity <- factor(TidyData$activity, levels = Labels[,1], labels = Lab
 
 #Replace "-mean" to "Mean" 
 names(TidyData) = gsub('-mean', 'Mean', names(TidyData))
-#Replace  "-std" to "Std"
-names(TidyData) = gsub('-std', 'Std', names(TidyData))
+#Replace  "-std" to "StdDev"
+names(TidyData) = gsub('-std', 'StdDev', names(TidyData))
 #Replace "-()" to ""
 names(TidyData) <- gsub('[-()]', '',names(TidyData))
+#Replace "t" to "Time"
+names(TidyData) = gsub('^(t)', 'Time', names(TidyData))
+#Replace "f" to "Freq"
+names(TidyData) = gsub('^(f)', 'Freq', names(TidyData))
 
 #Calculate the mean by subject and activity
 FinalData<-aggregate(. ~subject + activity, TidyData, mean)
+
+
+#Replace  "std" to "StdDev"
+names(FinalData) = gsub('std', 'StdDev', names(FinalData))
+#Replace "t" to "Time"
+names(FinalData) = gsub('^(t)', 'Time', names(FinalData))
+#Replace "f" to "Freq"
+names(FinalData) = gsub('^(f)', 'Freq', names(FinalData))
 
 #Write the final output to tidy.txt
 write.table(FinalData, "./tidy.txt", row.names = FALSE, quote = FALSE)
